@@ -3,9 +3,11 @@ footer{
 }
 
 .bg-desert{
-    background-image: url("medias/desert.jpg");
-}
+    background-image: url("../medias/desert.jpg");
+    background-position: cover;
+    background-repeat: no-repeat;
 
+}
 
 
 
