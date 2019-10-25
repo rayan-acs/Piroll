@@ -13,15 +13,36 @@ footer{
 }
 
 
+.marg-top5{
+    margin-top: 5%;
+}
 
+.marg-bot5{
+    margin-bottom: 5%;
+}
 
-.marg-top{
+.marg-top15{
+    margin-top: 15%;
+}
+
+.marg-bot15{
+    margin-bottom: 15%;
+}
+
+.marg-top25{
     margin-top: 25%;
 }
 
-.marg-bot{
+.marg-bot25{
     margin-bottom: 25%;
 }
+
+.pad-x25{
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+
 
 
 
