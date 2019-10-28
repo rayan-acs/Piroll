@@ -1,6 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@font-face {
+    font-family: 'pe-icon-7-strokeregular';
+    src: url('pe-icon-7-stroke-webfont.woff2') format('woff2'),
+         url('pe-icon-7-stroke-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html:root{
     --blue: #10c9c3;
 }
+
 
 footer{
     background-color: #141414
@@ -11,7 +21,6 @@ footer{
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 
 .marg-top5{
     margin-top: 5%;
