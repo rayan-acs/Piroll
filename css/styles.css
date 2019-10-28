@@ -91,3 +91,46 @@ footer{
 }
 
 /********************************************* navbar burger E********************************************************************/
+
+
+
+/*****************************section portfolio*****************/
+
+
+
+.portfolio_content{
+    padding-bottom:120px;
+    display:inline-block;
+}
+
+
+.single_portfolio_text{
+    display:inline-block;
+    padding:0;
+    position:relative;
+    overflow:hidden;
+
+}
+.single_portfolio_text{
+    width:100%;
+}
+
+.single_portfolio_text:hover .portfolio_images_overlay{
+    top:0;
+    left: 0;
+}
+
+.portfolio_images_overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.863);
+    margin: 0 auto;
+    top:-100%;
+    position: absolute;
+    transition:.6s;
+}
+
+.eye-icon{
+    padding-top: 40%;
+    color: white;
+}
