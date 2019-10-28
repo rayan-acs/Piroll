@@ -47,6 +47,7 @@ footer{
     background-color: var(--blue);
     border-color: var(--blue)
 }
+
 .btn {
     display: inline-block;
     font-weight: 400;
