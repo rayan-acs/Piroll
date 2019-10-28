@@ -38,6 +38,14 @@ footer{
     margin-bottom: 15%;
 }
 
+.marg-right15{
+    margin-right: 15%;
+}
+
+.marg-left15{
+    margin-left: 15%;
+}
+
 .marg-top25{
     margin-top: 25%;
 }
@@ -99,6 +107,13 @@ footer{
     text-align: right;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    color: #252525;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--blue);
+}
 /********************************************* navbar burger E********************************************************************/
 
 
@@ -106,9 +121,13 @@ footer{
 .container-contact{
     width: 671px;
 }
+
+
 /*****************************section portfolio*****************/
 
-
+.main_portfolio_content{
+    max-width: 1583px;
+}
 
 .portfolio_content{
     padding-bottom:120px;
