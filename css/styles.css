@@ -57,8 +57,8 @@ body{
     font-weight: 700;
 }
 
-.size-12{
-    font-size: 12px;
+.size-09{
+    font-size: 0.9rem;
 }
 
 /****************************** CONTAINER SYSTEM ******************************/
@@ -73,8 +73,8 @@ body{
     margin-top: 5%;
 }
 
-.marg-bot5{
-    margin-bottom: 5%;
+.marg-bot10{
+    margin-bottom: 10%;
 }
 
 .marg-top15{
