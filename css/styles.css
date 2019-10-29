@@ -28,6 +28,12 @@ html:root{
     color: var(--light-grey);
 }
 
+.text-light-grey > a {
+    color: #00ff37;
+    text-decoration: none;
+    background-color: transparent;
+}
+
 .bg-blue{
     background-color: var(--blue);
 }
@@ -191,4 +197,54 @@ body{
 .eye-icon{
     padding-top: 40%;
     color: white;
+}
+
+
+.carousel-indicators li{
+    height: 10px;
+    width: 10px;
+    border-radius:50%;
+    }
+
+/*media queries*/ 
+
+
+/********************* max-width: 1199px ************************/
+/*Large devices (desktops, 992px and up)*/
+@media (min-width:992px) and (max-width:1199px){
+
+    .marg-left15{
+        margin-left: 0;
+    }
+    .pro-marg-bot{
+        margin-bottom: 20%;
+        margin-left: 0;
+    }
+    .marg-queries-right{
+        margin-right: 25px !important;
+    }
+    .pad-bot-queries{
+        padding-bottom: 5%;
+    }
+    .text-queries-center{
+        text-align: center;
+    }
+}
+
+
+@media (min-width:768px) and (max-width:991px){
+
+    .marg-top25{
+        margin-left: 0 !important;
+    }
+    .marg-bot40{
+        margin-bottom: 15%;
+    }
+    .marg-queries{
+        margin-top: 15%;  
+    }
+    .marg-queries-right{
+        margin-right: 25%;
+    }
+
 }
