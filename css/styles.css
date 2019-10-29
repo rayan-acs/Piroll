@@ -126,7 +126,7 @@ footer{
 /*****************************section portfolio*****************/
 
 .main_portfolio_content{
-    max-width: 1583px;
+    max-width: 100vw;
 }
 
 .portfolio_content{
