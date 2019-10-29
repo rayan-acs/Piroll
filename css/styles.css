@@ -28,6 +28,12 @@ html:root{
     color: var(--light-grey);
 }
 
+.text-light-grey > a {
+    color: #00ff37;
+    text-decoration: none;
+    background-color: transparent;
+}
+
 .bg-blue{
     background-color: var(--blue);
 }
@@ -192,3 +198,10 @@ body{
     padding-top: 40%;
     color: white;
 }
+
+
+.carousel-indicators li{
+    height: 10px;
+    width: 10px;
+    border-radius:50%;
+    }
