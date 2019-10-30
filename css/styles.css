@@ -258,6 +258,13 @@ body{
     .marg-queries{
         margin-top: 15%;  
     }
+
+    .navbar-light .navbar-nav .nav-link {
+        width: 100%;
+        text-align: center;
+        padding: 10% 50% 0 0;
+    }
+    
 }
 
 
@@ -275,8 +282,24 @@ body{
     .marg-bot40{
         margin-bottom: 4rem;
     }
+
+    .navbar-light .navbar-nav .nav-link {
+        width: 100%;
+        text-align: center;
+        padding: 10% 50% 0 0;
+    }
+    
 }
+
+
+
 
 @media (max-width: 575.98px){ 
 
+    .navbar-light .navbar-nav .nav-link {
+        width: 100%;
+        text-align: center;
+        padding: 10% 50% 0 0;
+    }
+    
 }
