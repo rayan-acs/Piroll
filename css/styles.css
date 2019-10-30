@@ -50,6 +50,7 @@ html:root{
 
 body{
     font-family: Montserrat;
+    overflow-x: hidden;
 }
 
 .font-weight-bold{
@@ -149,13 +150,10 @@ body{
 
 /********************************************* navbar burger E********************************************************************/
 
-
 .responsive {
     max-width: 100%;
     height: auto;
 }
-
-
 
 /*****************************section portfolio*****************/
 
@@ -210,8 +208,20 @@ body{
 
 @media (min-width: 576px) and (max-width: 767.98px) {  
     
+    body{
+        font-size: 1.4rem;
+    }
+
+    .marg-top15{
+        margin-top: 0;
+    }
+
+    .marg-bot40{
+        margin-bottom: 4rem;
+    }
 }
 
 @media (max-width: 575.98px){ 
+
 
 }
