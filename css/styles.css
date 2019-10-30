@@ -94,6 +94,11 @@ body{
     margin-left: 15%;
 }
 
+.marg-left15-p{
+    margin-left: 15%;
+}
+
+
 .marg-top25{
     margin-top: 25%;
 }
@@ -243,6 +248,11 @@ body{
     .text-queries-center{
         text-align: center;
     }
+
+    .marg-left15-p{
+        margin-left: 0;
+    }
+    
    
 }
 
@@ -261,9 +271,26 @@ body{
 
     .navbar-light .navbar-nav .nav-link {
         width: 100%;
+        font-size: 1.3rem;
         text-align: center;
         padding: 10% 50% 0 0;
     }
+
+    .pro-marg-bot{
+        margin-bottom: 20%;
+        margin-left: 0;
+    }
+    .pad-bot-queries{
+        padding-bottom: 5%;
+    }
+    .text-queries-center{
+        text-align: center;
+    }
+
+    .marg-left15-p{
+        margin-left: 0;
+    }
+    
     
 }
 
@@ -288,7 +315,18 @@ body{
         text-align: center;
         padding: 10% 50% 0 0;
     }
-    
+
+    .pro-marg-bot{
+        margin-bottom: 20%;
+        margin-left: 0;
+    }
+    .pad-bot-queries{
+        padding-bottom: 5%;
+    }
+    .text-queries-center{
+        text-align: center;
+    }
+
 }
 
 
@@ -296,10 +334,35 @@ body{
 
 @media (max-width: 575.98px){ 
 
+
+    body{
+        font-size: 1rem;
+    }
+
+    .marg-top15{
+        margin-top: 0;
+    }
+
+    .marg-bot40{
+        margin-bottom: 4rem;
+    }
+
     .navbar-light .navbar-nav .nav-link {
         width: 100%;
         text-align: center;
         padding: 10% 50% 0 0;
     }
-    
+
+    .pro-marg-bot{
+        margin-bottom: 20%;
+        margin-left: 0;
+    }
+    .pad-bot-queries{
+        padding-bottom: 5%;
+    }
+    .text-queries-center{
+        text-align: center;
+    }
+
+
 }
